@@ -8,11 +8,11 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'images-na.ssl-images-amazon.com',
         port: '',
-        pathname: '/images/M/**',
+        pathname: '**',
       },
     ],
   },
-distDir:'build'  
+// distDir:'build'  
 }
 
 module.exports = nextConfig
