@@ -2,7 +2,7 @@ import SingleCard from "@/components/SingleCard";
 import { Box, Flex, Table, Th, Tr, Thead, Tbody } from "@chakra-ui/react";
 import axios from "axios";
 import React from "react";
-import SingleWatch from "./SingleWatch";
+import SingleWatch from "../../components/SingleWatch";
 
 const Watchlist = ({ data }) => {
   return (
